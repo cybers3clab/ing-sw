@@ -1,4 +1,4 @@
-package it.unical.client;
+package it.unical.chat.client;
 
 import io.grpc.*;
 import it.unical.proto.GreeterGrpc;
@@ -8,10 +8,12 @@ import it.unical.proto.HelloRequest;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
-public class ClientMain {
+public class ClientChatMain {
     private final GreeterGrpc.GreeterBlockingStub blockingStub;
+    public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_GREEN = "\u001B[32m";
 
-    public ClientMain(Channel channel) {
+    public ClientChatMain(Channel channel) {
         this.blockingStub = GreeterGrpc.newBlockingStub(channel);
     }
 
@@ -34,14 +36,18 @@ public class ClientMain {
                         InsecureChannelCredentials.create()
                 )
                 .build();
-        ClientMain clientMain = new ClientMain(channel);
+        ClientChatMain clientMain = new ClientChatMain(channel);
 
-        System.out.println("Inserisci il tuo nome");
-        String user = new Scanner(System.in).nextLine();
-        System.out.println("Invio il tuo nome al server gRPC");
+        String response = "start";
+        while(!response.equals("end")) {
+            System.out.print(ANSI_RED + "clientMessage: ");
+            Scanner sc = new Scanner(System.in);
+            String clientMessage = "clientMessage: " + sc.nextLine();
+            response = clientMain.greet(clientMessage);
+            System.out.println(ANSI_GREEN + response);
+        }
 
-        String response = clientMain.greet(user);
-        System.out.println("Il server gRPC dice: " + response);
+
 
         channel.shutdownNow().awaitTermination(5, TimeUnit.SECONDS);
     }

@@ -12,8 +12,12 @@ public class ServerMain {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         int port = 50051;
-        Server server = Grpc.newServerBuilderForPort(port, InsecureServerCredentials.create())
-                .addService(new GreeterImpl())
+        Server server = Grpc
+                .newServerBuilderForPort(
+                        port,
+                        InsecureServerCredentials.create()
+                )
+                .addService( new GreeterImpl())
                 .build()
                 .start();
 
