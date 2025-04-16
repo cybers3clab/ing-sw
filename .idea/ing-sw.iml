@@ -18,6 +18,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/designPatterns/DTO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/designPatterns_old" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/gRPC/simple_grpc/simple_grpc/target" />
     </content>
     <orderEntry type="inheritedJdk" />

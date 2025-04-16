@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/designPatterns/Mediator/BasicMediator/BasicMediator.iml" filepath="$PROJECT_DIR$/designPatterns/Mediator/BasicMediator/BasicMediator.iml" />
       <module fileurl="file://$PROJECT_DIR$/designPatterns/Mediator/MarketMediator/MarketMediator.iml" filepath="$PROJECT_DIR$/designPatterns/Mediator/MarketMediator/MarketMediator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designPatterns_old/Mediator/MarketMediator/MarketMediatorold.iml" filepath="$PROJECT_DIR$/designPatterns_old/Mediator/MarketMediator/MarketMediatorold.iml" />
       <module fileurl="file://$PROJECT_DIR$/designPatterns/Mediator/Mediator.iml" filepath="$PROJECT_DIR$/designPatterns/Mediator/Mediator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designPatterns_old/Mediator/Mediatorold.iml" filepath="$PROJECT_DIR$/designPatterns_old/Mediator/Mediatorold.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designPatterns/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/designPatterns/Proxy/Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ing-sw.iml" filepath="$PROJECT_DIR$/.idea/ing-sw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designPatterns/DTO/src/main/main.iml" filepath="$PROJECT_DIR$/designPatterns/DTO/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designPatterns/DTO/src/test/test.iml" filepath="$PROJECT_DIR$/designPatterns/DTO/src/test/test.iml" />
     </modules>
   </component>
 </project>

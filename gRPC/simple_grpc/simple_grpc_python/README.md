@@ -20,7 +20,7 @@ su un terminale avviato come amministratore, scrivere:
 
 ### Unix-based (Linux/MacOS)
 
-    . <nome_virtual_env>/bin/activate
+    . ./<nome_virtual_env>/bin/activate
 ___
 
 ## Installazione librerie
