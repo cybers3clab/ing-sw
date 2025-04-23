@@ -6,7 +6,7 @@
     <name>design-patterns-architectural</name>
     <packaging>jar</packaging>
     <groupId>it.unical</groupId>
-    <artifactId>ingsw-dto</artifactId>
+    <artifactId>DTO</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <dependencies>
