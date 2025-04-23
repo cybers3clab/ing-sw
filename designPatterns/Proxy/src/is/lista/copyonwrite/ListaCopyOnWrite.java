@@ -22,44 +22,58 @@ public final class ListaCopyOnWrite<E> implements Lista<E> {
         CLEANER.register(this, refHolder);
     }
 
+    private void copyIfNecessary() {
+        refHolder.setReferenceCounter(refHolder.getReferenceCounter().copyIfNecessary());
+    }
+
     @Override
     public int size() {
-        return 0;
+        return refHolder.getReferenceCounter().getLista().size();
     }
 
     @Override
     public boolean contiene(E dato) {
-        return false;
+        return refHolder.getReferenceCounter().getLista().contiene(dato);
     }
 
     @Override
     public void aggiungi(int index, E dato) throws IndexOutOfBoundsException {
-
+        copyIfNecessary();
+        refHolder.getReferenceCounter().getLista().aggiungi(index, dato);
     }
 
     @Override
     public void aggiungi(E dato) {
-
+        copyIfNecessary();
+        refHolder.getReferenceCounter().getLista().aggiungi(dato);
     }
 
     @Override
     public void rimuovi(int index) throws IndexOutOfBoundsException {
-
+        copyIfNecessary();
+        refHolder.getReferenceCounter().getLista().rimuovi(index);
     }
 
     @Override
     public boolean rimuovi(E dato) {
-        return false;
+        copyIfNecessary();
+        return refHolder.getReferenceCounter().getLista().rimuovi(dato);
     }
 
     @Override
     public E dammiElemento(int index) throws IndexOutOfBoundsException {
-        return null;
+        return refHolder.getReferenceCounter().getLista().dammiElemento(index);
     }
 
     @Override
     public Lista<E> copia() {
-        return null;
+        refHolder.getReferenceCounter().incr();
+        return new ListaCopyOnWrite<>(refHolder.getReferenceCounter());
+    }
+
+    @Override
+    public String toString() {
+        return refHolder.getReferenceCounter().getLista().toString();
     }
 
 
