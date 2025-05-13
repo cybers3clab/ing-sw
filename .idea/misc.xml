@@ -7,10 +7,13 @@
         <option value="$PROJECT_DIR$/designPatterns/design-patterns-architectural/ingsw/pom.xml" />
         <option value="$PROJECT_DIR$/designPatterns/design-patterns-architectural/pom.xml" />
         <option value="$PROJECT_DIR$/designPatterns/DTO/pom.xml" />
+        <option value="$PROJECT_DIR$/contact-manager-master/pom.xml" />
+        <option value="$PROJECT_DIR$/contact-manager/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/designPatterns/DTO/pom.xml" />
         <option value="$PROJECT_DIR$/designPatterns/design-patterns-architectural/ingsw/pom.xml" />
         <option value="$PROJECT_DIR$/designPatterns_old/DTO/pom.xml" />
       </set>

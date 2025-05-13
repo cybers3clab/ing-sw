@@ -10,9 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/designPatterns_old/Mediator/Mediatorold.iml" filepath="$PROJECT_DIR$/designPatterns_old/Mediator/Mediatorold.iml" />
       <module fileurl="file://$PROJECT_DIR$/designPatterns/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/designPatterns/Proxy/Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ing-sw.iml" filepath="$PROJECT_DIR$/.idea/ing-sw.iml" />
-      <module fileurl="file://$PROJECT_DIR$/designPatterns/DTO/ingsw-dto.iml" filepath="$PROJECT_DIR$/designPatterns/DTO/ingsw-dto.iml" />
       <module fileurl="file://$PROJECT_DIR$/designPatterns/DTO/src/main/main.iml" filepath="$PROJECT_DIR$/designPatterns/DTO/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/designPatterns/DTO/src/test/test.iml" filepath="$PROJECT_DIR$/designPatterns/DTO/src/test/test.iml" />
     </modules>
   </component>
 </project>

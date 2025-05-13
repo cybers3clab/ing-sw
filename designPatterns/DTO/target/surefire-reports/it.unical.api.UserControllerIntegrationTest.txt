@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: it.unical.api.UserControllerIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.614 s -- in it.unical.api.UserControllerIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.240 s -- in it.unical.api.UserControllerIntegrationTest

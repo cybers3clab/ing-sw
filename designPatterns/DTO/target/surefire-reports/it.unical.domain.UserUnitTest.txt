@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: it.unical.domain.UserUnitTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in it.unical.domain.UserUnitTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in it.unical.domain.UserUnitTest

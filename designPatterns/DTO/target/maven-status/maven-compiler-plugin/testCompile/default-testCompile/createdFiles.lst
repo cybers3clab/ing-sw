@@ -1,0 +1,3 @@
+it/unical/domain/UserUnitTest.class
+it/unical/api/MapperUnitTest.class
+it/unical/api/UserControllerIntegrationTest.class

@@ -6,13 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="junit-example-contact-manager" />
+        <module name="simple_grpc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DTO" target="1.8" />
-      <module name="ingsw" target="21" />
-      <module name="ingsw-dto" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

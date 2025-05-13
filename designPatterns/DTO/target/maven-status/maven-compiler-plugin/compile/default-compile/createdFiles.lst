@@ -1,0 +1,13 @@
+it/unical/api/UserDTO.class
+it/unical/Main.class
+it/unical/domain/User.class
+it/unical/domain/UserService.class
+it/unical/api/Mapper.class
+it/unical/api/UserController.class
+it/unical/api/UserIdDTO.class
+it/unical/api/UserCreationDTO.class
+it/unical/domain/UserRepository.class
+it/unical/domain/Role.class
+it/unical/domain/RoleRepository.class
+it/unical/domain/RoleService.class
+it/unical/domain/InMemoryRepository.class
