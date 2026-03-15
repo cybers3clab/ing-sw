@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/design-patterns/chain-of-responsibility/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/chain-of-responsibility/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/mediator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/mediator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/proxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/designPatterns_old/DTO/ingsw/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/designPatterns_old/DTO/ingsw/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grpc/simple_grpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grpc/simple_grpc/src/main/proto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grpc/simple_grpc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grpc/simple_grpc/target/generated-sources/protobuf/grpc-java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grpc/simple_grpc/target/generated-sources/protobuf/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grpc/src/main/resources" charset="UTF-8" />
   </component>
 </project>

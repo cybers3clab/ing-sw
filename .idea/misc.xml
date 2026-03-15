@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.12 (ing-sw)" />
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/designPatterns/design-patterns-architectural/ingsw/pom.xml" />
         <option value="$PROJECT_DIR$/designPatterns/design-patterns-architectural/pom.xml" />
-        <option value="$PROJECT_DIR$/designPatterns/DTO/pom.xml" />
         <option value="$PROJECT_DIR$/contact-manager-master/pom.xml" />
         <option value="$PROJECT_DIR$/contact-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/junit-example-contact-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/designPatterns/DataTransferObject/pom.xml" />
+        <option value="$PROJECT_DIR$/designPatterns/DTO/pom.xml" />
+        <option value="$PROJECT_DIR$/designPatterns/pom.xml" />
+        <option value="$PROJECT_DIR$/design-patterns/pom.xml" />
+        <option value="$PROJECT_DIR$/gRPC/simple_grpc/simple_grpc/pom.xml" />
+        <option value="$PROJECT_DIR$/grpc/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/designPatterns/DTO/pom.xml" />
         <option value="$PROJECT_DIR$/designPatterns/design-patterns-architectural/ingsw/pom.xml" />
         <option value="$PROJECT_DIR$/designPatterns_old/DTO/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

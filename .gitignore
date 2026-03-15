@@ -1,15 +1,8 @@
-designPatterns_old/DTO/target
-designPatterns_old/Mediator/BasicMediator/out/**
-designPatterns_old/Mediator/MarketMediator/out/**
-gRPC/simple_grpc/simple_grpc/target/**
-gRPC/simple_grpc/simple_grpc_python/env/**
-/out/**
-
-
 target/
+out/
+env*/
+venv*/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
