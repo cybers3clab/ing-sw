@@ -1,7 +1,7 @@
-package main.java;
+package baseProxy;
 
-import main.java.lista.Lista;
-import main.java.lista.ListeUtil;
+import baseProxy.lista.Lista;
+import baseProxy.lista.ListeUtil;
 
 public class Test {
 

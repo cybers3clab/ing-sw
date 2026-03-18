@@ -1,0 +1,12 @@
+services:
+  git-server:
+    build: .
+    container_name: git-server
+    ports:
+      - "2222:22"
+    volumes:
+      - git-repos:/repos
+    restart: unless-stopped
+
+volumes:
+  git-repos:

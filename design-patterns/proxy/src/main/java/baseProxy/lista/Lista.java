@@ -1,4 +1,4 @@
-package main.java.lista;
+package baseProxy.lista;
 
 public interface Lista<E> {
 

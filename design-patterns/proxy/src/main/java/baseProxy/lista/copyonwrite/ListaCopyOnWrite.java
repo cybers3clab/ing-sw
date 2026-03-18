@@ -1,6 +1,6 @@
-package main.java.lista.copyonwrite;
+package baseProxy.lista.copyonwrite;
 
-import main.java.lista.Lista;
+import baseProxy.lista.Lista;
 import java.lang.ref.Cleaner;
 
 public final class ListaCopyOnWrite<E> implements Lista<E> {

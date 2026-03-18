@@ -1,6 +1,6 @@
-package main.java.lista.impl;
+package baseProxy.lista.impl;
 
-import main.java.lista.Lista;
+import baseProxy.lista.Lista;
 
 public class ListaSuArray<E> implements Lista<E> {
     private final static int MIN = 10;

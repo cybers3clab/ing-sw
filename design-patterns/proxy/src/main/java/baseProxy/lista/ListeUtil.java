@@ -1,8 +1,8 @@
-package main.java.lista;
+package baseProxy.lista;
 
-import main.java.lista.copyonwrite.ListaCopyOnWrite;
-import main.java.lista.impl.ListaSuArray;
-import main.java.lista.sicurezza.ListaSicura;
+import baseProxy.lista.copyonwrite.ListaCopyOnWrite;
+import baseProxy.lista.impl.ListaSuArray;
+import baseProxy.lista.sicurezza.ListaSicura;
 
 public class ListeUtil {
 

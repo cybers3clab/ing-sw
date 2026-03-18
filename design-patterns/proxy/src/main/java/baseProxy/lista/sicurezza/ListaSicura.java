@@ -1,6 +1,6 @@
-package main.java.lista.sicurezza;
+package baseProxy.lista.sicurezza;
 
-import main.java.lista.Lista;
+import baseProxy.lista.Lista;
 
 public class ListaSicura<E> implements Lista<E> {
 

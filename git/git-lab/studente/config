@@ -1,0 +1,7 @@
+Host git-lab
+    HostName localhost
+    Port 2222
+    User git
+    IdentityFile ~/.ssh/id_git_lab
+    StrictHostKeyChecking no
+

@@ -1,4 +1,4 @@
-package main.java.lista.sicurezza;
+package baseProxy.lista.sicurezza;
 
 import java.io.Serial;
 
