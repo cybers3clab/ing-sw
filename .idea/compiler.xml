@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="proxy" />
+        <module name="decorator" />
         <module name="simple_grpc" />
         <module name="junit-example-contact-manager" />
         <module name="mediator" />

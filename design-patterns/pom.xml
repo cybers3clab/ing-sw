@@ -13,6 +13,7 @@
         <module>dto</module>
         <module>mediator</module>
         <module>proxy</module>
+        <module>decorator</module>
     </modules>
 
     <properties>
