@@ -1,7 +1,7 @@
 package is.decorator;
 
 public abstract class Decorator implements PlainTextComp {
-    private PlainTextComp comp;
+    private final PlainTextComp comp;
     public Decorator(PlainTextComp dec){
         comp=dec;
     }
