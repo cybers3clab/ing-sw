@@ -1,11 +1,10 @@
-package api;
+package ExampleDTO.api;
 
-import domain.Role;
-import domain.User;
+import ExampleDTO.domain.Role;
+import ExampleDTO.domain.User;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 import static java.util.stream.Collectors.toList;
@@ -18,13 +17,13 @@ class Mapper {
         List<String> roles = user
                 .getRoles()
                 .stream()
-                .map(x -> x.getName())
+                .map(Role::getName)
                 .collect(toList());
 
-        roles = new LinkedList<>();
-        for(Role x: user.getRoles()){
-            roles.add(x.getName());
-        }
+//        roles = new LinkedList<>();
+//        for(Role x: user.getRoles()){
+//            roles.add(x.getName());
+//        }
 
 
         return new UserDTO(name, roles);

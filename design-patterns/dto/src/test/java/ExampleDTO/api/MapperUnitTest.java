@@ -1,7 +1,7 @@
-package api;
+package ExampleDTO.api;
 
-import domain.Role;
-import domain.User;
+import ExampleDTO.domain.Role;
+import ExampleDTO.domain.User;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

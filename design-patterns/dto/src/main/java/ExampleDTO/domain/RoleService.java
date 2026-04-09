@@ -1,4 +1,4 @@
-package domain;
+package ExampleDTO.domain;
 
 import org.springframework.stereotype.Service;
 
@@ -7,7 +7,7 @@ import java.util.Objects;
 @Service
 public class RoleService {
 
-    private RoleRepository repository;
+    private final RoleRepository repository;
 
     public RoleService(RoleRepository repository) {
         this.repository = repository;

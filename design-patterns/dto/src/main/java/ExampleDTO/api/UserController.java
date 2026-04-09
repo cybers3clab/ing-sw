@@ -1,8 +1,8 @@
-package api;
+package ExampleDTO.api;
 
-import domain.RoleService;
-import domain.User;
-import domain.UserService;
+import ExampleDTO.domain.RoleService;
+import ExampleDTO.domain.User;
+import ExampleDTO.domain.UserService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,9 +13,9 @@ import static java.util.stream.Collectors.toList;
 @RequestMapping("/users")
 class UserController {
 
-    private UserService userService;
-    private RoleService roleService;
-    private Mapper mapper;
+    private final UserService userService;
+    private final RoleService roleService;
+    private final Mapper mapper;
 
     public UserController(UserService userService,  RoleService roleService, Mapper mapper) {
         this.userService = userService;
@@ -40,7 +40,7 @@ class UserController {
 
         userDTO.getRoles()
                 .stream()
-                .map(role -> roleService.getOrCreate(role))
+                .map(roleService::getOrCreate)
                 .forEach(user::addRole);
 
         userService.save(user);

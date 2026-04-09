@@ -1,4 +1,4 @@
-package domain;
+package ExampleDTO.domain;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package domain;
+package ExampleDTO.domain;
 
 public interface RoleRepository {
     Role getRoleById(String id);

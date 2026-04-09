@@ -1,4 +1,4 @@
-package domain;
+package ExampleDTO.domain;
 
 import org.junit.jupiter.api.Test;
 

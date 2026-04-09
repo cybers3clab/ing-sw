@@ -1,9 +1,9 @@
-package api;
+package ExampleDTO.api;
 
-import domain.Role;
-import domain.RoleRepository;
-import domain.User;
-import domain.UserRepository;
+import ExampleDTO.domain.Role;
+import ExampleDTO.domain.RoleRepository;
+import ExampleDTO.domain.User;
+import ExampleDTO.domain.UserRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;

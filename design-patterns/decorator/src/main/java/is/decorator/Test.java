@@ -2,7 +2,7 @@ package is.decorator;
 
 public class Test {
 
-    static void main() {
+    public static void main(String[] args) {
         SimpleText pt = new SimpleText("pippo");
         CharDecorator st1=new CharDecorator(pt,'+');
         CharDecorator st2=new CharDecorator(st1,'-');

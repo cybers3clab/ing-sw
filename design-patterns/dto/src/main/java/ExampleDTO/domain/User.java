@@ -1,4 +1,4 @@
-package domain;
+package ExampleDTO.domain;
 
 import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;
@@ -11,7 +11,7 @@ import java.util.Objects;
 
 public class User {
 
-    private static SecretKeySpec KEY = initKey();
+    private static final SecretKeySpec KEY = initKey();
 
     static SecretKeySpec initKey(){
         try {
@@ -25,7 +25,7 @@ public class User {
     private String id;
     private String name;
     private String password;
-    private List<Role> roles;
+    private final List<Role> roles;
 
     public User(String name, String password, List<Role> roles) {
         this.name = Objects.requireNonNull(name);

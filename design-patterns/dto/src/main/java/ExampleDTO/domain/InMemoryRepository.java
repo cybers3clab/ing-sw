@@ -1,4 +1,4 @@
-package domain;
+package ExampleDTO.domain;
 
 import org.springframework.stereotype.Service;
 
@@ -7,8 +7,8 @@ import java.util.*;
 @Service
 class InMemoryRepository implements UserRepository, RoleRepository {
 
-    private Map<String, User> users = new LinkedHashMap<>();
-    private Map<String, Role> roles = new LinkedHashMap<>();
+    private final Map<String, User> users = new LinkedHashMap<>();
+    private final Map<String, Role> roles = new LinkedHashMap<>();
 
     @Override
     public List<User> getAll() {

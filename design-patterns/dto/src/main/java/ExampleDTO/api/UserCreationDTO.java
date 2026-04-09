@@ -1,4 +1,4 @@
-package api;
+package ExampleDTO.api;
 
 import java.util.List;
 
