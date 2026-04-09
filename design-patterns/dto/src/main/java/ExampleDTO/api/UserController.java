@@ -15,9 +15,9 @@ class UserController {
 
     private final UserService userService;
     private final RoleService roleService;
-    private final Mapper mapper;
+    private final UserMapper mapper;
 
-    public UserController(UserService userService,  RoleService roleService, Mapper mapper) {
+    public UserController(UserService userService,  RoleService roleService, UserMapper mapper) {
         this.userService = userService;
         this.roleService = roleService;
         this.mapper = mapper;
@@ -38,10 +38,15 @@ class UserController {
     public UserIdDTO create(@RequestBody UserCreationDTO userDTO) {
         User user = mapper.toUser(userDTO);
 
+        /*
+        Commentato perchè usiamo il Mapping di map-struct di Spring (dopo le modifiche in aula)
+        Decommentare se si vuole utilizzare il mapper "manuale"
+
         userDTO.getRoles()
                 .stream()
                 .map(roleService::getOrCreate)
                 .forEach(user::addRole);
+        */
 
         userService.save(user);
 
