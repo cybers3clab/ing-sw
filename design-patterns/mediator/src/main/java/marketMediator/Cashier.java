@@ -1,4 +1,4 @@
-package MarketMediator;
+package marketMediator;
 
 public class Cashier extends MarketEntity { //MarketEntity � il Colleague
 	//CocnreteColleague

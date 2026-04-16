@@ -1,4 +1,4 @@
-package BasicMediator;
+package basicMediator;
 
 import javax.swing.JComponent;
 

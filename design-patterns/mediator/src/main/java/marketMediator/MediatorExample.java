@@ -1,4 +1,4 @@
-package MarketMediator;
+package marketMediator;
 
 public class MediatorExample {
 

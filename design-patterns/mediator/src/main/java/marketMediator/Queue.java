@@ -1,4 +1,4 @@
-package MarketMediator;
+package marketMediator;
 
 public class Queue extends MarketEntity {//MarketEntity � il Colleague
 	//ConcreteColleague
