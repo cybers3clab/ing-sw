@@ -1,4 +1,6 @@
-package is.decorator;
+import is.decorator.CharDecorator;
+import is.decorator.PlainTextComp;
+import is.decorator.SimpleText;
 
 public class Test {
 
@@ -11,7 +13,7 @@ public class Test {
         printAll(st1);
 
     }
-    static  void printAll(PlainTextComp ... comp){
+    static  void printAll(PlainTextComp... comp){
         for(PlainTextComp c:comp)
             for(int i=0;i<c.row();i++){
                 System.out.println(c.getRow(i));
