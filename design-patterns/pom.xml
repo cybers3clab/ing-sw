@@ -14,8 +14,8 @@
         <module>mediator</module>
         <module>proxy</module>
         <module>decorator</module>
-        <module>pipo/polinomi</module>
-        <module>poilnomi</module>
+        <module>polinomi</module>
+
     </modules>
 
     <properties>

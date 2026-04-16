@@ -10,7 +10,6 @@
         <module name="decorator" />
         <module name="simple_grpc" />
         <module name="junit-example-contact-manager" />
-        <module name="poilnomi" />
         <module name="polinomi" />
         <module name="mediator" />
         <module name="chain-of-responsibility" />

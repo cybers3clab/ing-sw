@@ -11,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/design-patterns/pipo/polinomi/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design-patterns/poilnomi/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design-patterns/poilnomi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/polinomi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/polinomi/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design-patterns/proxy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design-patterns/proxy/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design-patterns/src/main/java" charset="UTF-8" />
@@ -24,9 +26,5 @@
     <file url="file://$PROJECT_DIR$/gRPC/simple_grpc/target/generated-sources/protobuf/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gRPC/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gRPC/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/grpc/simple_grpc/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/grpc/simple_grpc/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/grpc/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/grpc/src/main/resources" charset="UTF-8" />
   </component>
 </project>
