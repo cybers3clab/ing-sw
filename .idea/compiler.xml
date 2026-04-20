@@ -26,6 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chain-of-responsibility" target="21" />
       <module name="ChainOfResponsability" target="21" />
       <module name="design-patterns (1)" target="21" />
       <module name="DTO" target="1.8" />

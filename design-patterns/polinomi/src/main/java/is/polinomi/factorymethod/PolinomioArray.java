@@ -1,12 +1,12 @@
 package is.polinomi.factorymethod;
 
+import static java.lang.Math.abs;
+
 import is.polinomi.Monomio;
 import is.polinomi.Polinomio;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-
-import static java.lang.Math.abs;
 
 
 /**
@@ -49,7 +49,7 @@ public class PolinomioArray extends PolinomioAstratto {
 	}
 
 	/**
-	 * @see Polinomio#add(Monomio)
+	 * @see is.polinomi.Polinomio#add(is.polinomi.Monomio)
 	 */
 	@Override
 	public void addMod(Monomio m) {

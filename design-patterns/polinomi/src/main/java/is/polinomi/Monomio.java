@@ -46,7 +46,7 @@ public record Monomio(double coeff, int grado) implements Comparable<Monomio> {
      * Il Monomio this precede m se il suo grado &egrave; inferiore, lo segue se
      * &egrave; superiore
      *
-     * @see Comparable#compareTo(Object)
+     * @see java.lang.Comparable#compareTo(java.lang.Object)
      */
     @Override
     public int compareTo(Monomio m) {

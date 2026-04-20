@@ -3,6 +3,8 @@ package is.polinomi.factorymethod;
 import is.polinomi.Monomio;
 import is.polinomi.Polinomio;
 
+import java.util.Iterator;
+
 
 /**
  *

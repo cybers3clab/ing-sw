@@ -1,5 +1,7 @@
 package is.polinomi.prototype;
 
+import static java.lang.Math.abs;
+
 import is.polinomi.Monomio;
 import is.polinomi.Polinomio;
 
@@ -7,12 +9,10 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-import static java.lang.Math.abs;
-
 /**
  * 
  * Fornisce un'implementazione dell'interfaccia {@link Polinomio} basata su una
- * lista di tipo {@link LinkedList}
+ * lista di tipo {@link java.util.LinkedList}
  * 
  * I monomi costituenti il polinomio sono memorizzati all'interno della lista
  * concatenata secondo l'ordinamento definito dalla classe Monomio.

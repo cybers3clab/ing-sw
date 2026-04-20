@@ -24,9 +24,5 @@
     <file url="file://$PROJECT_DIR$/gRPC/simple_grpc/target/generated-sources/protobuf/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gRPC/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gRPC/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/grpc/simple_grpc/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/grpc/simple_grpc/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/grpc/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/grpc/src/main/resources" charset="UTF-8" />
   </component>
 </project>

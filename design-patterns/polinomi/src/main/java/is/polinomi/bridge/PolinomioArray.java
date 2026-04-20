@@ -52,7 +52,7 @@ class PolinomioArray implements PolinomioImpl {
     }
 
     /**
-     * @see Polinomio#add(Monomio)
+     * @see is.polinomi.Polinomio#add(is.polinomi.Monomio)
      */
     @Override
     public void addMonomio(Monomio m) {

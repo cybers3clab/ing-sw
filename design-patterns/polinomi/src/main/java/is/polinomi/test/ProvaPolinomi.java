@@ -2,21 +2,24 @@ package is.polinomi.test;
 
 import is.polinomi.Monomio;
 import is.polinomi.Polinomio;
+import is.polinomi.factorymethod.PolinomioTreeMap;
+import is.polinomi.prototype.PolinomioArray;
+import is.polinomi.prototype.PolinomioFactory;
+import is.polinomi.prototype.PolinomioLL;
+//import is.polinomi.factorymethod.PolinomioLL;
+//import is.polinomi.bridge.PolinomioArrayFactory;
 import is.polinomi.bridge.PolinomioConcreto;
 import is.polinomi.bridge.PolinomioIntegrable;
 import is.polinomi.builder.PolinomioBuilderIF;
-import is.polinomi.factorymethod.PolinomioTreeMap;
-import is.polinomi.prototype.PolinomioFactory;
-import is.polinomi.prototype.PolinomioLL;
-
-//import is.polinomi.factorymethod.PolinomioLL;
-//import is.polinomi.bridge.PolinomioArrayFactory;
 
 public class ProvaPolinomi {
-    public static void main(String[] args) {
+    static void main(String[] args) {
+
+
+
 
         //Polinomio p1 = PolinomioFactory.createPolinomio();
-        // new PolinomioArray(10);
+               // new PolinomioArray(10);
         Polinomio p1 = new PolinomioTreeMap();
         //Polinomio p1 =new PolinomioConcreto();
         p1 = p1.add(new Monomio(2.0, 2)).add(new Monomio(2.0, 1));
@@ -86,9 +89,9 @@ public class ProvaPolinomi {
     }
 
     static void testList(){
-        Polinomio p1= new PolinomioLL();
+        Polinomio p1= new is.polinomi.prototype.PolinomioLL();
         Polinomio p2= new is.polinomi.factorymethod.PolinomioLL();
-        Polinomio p3= new PolinomioConcreto();
+        Polinomio p3= new is.polinomi.bridge.PolinomioConcreto();
 
         p1=p1.add(new Monomio(3,4)).add(new Monomio(5,1));
         p2=p2.add(new Monomio(3,4)).add(new Monomio(5,1));
