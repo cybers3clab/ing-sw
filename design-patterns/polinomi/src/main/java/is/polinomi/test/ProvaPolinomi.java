@@ -24,7 +24,9 @@ public class ProvaPolinomi {
         //Polinomio p1 =new PolinomioConcreto();
         p1 = p1.add(new Monomio(2.0, 2)).add(new Monomio(2.0, 1));
 
-        Polinomio p2 =PolinomioFactory.createPolinomio();
+
+        Polinomio p2= new is.polinomi.builder.PolinomioConcreto();
+        //Polinomio p2 =PolinomioFactory.createPolinomio();
                // new PolinomioLL();
         p2 = p2.add(new Monomio(4, 1));
 

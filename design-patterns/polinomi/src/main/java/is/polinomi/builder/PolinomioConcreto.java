@@ -10,7 +10,10 @@ public class PolinomioConcreto implements Polinomio {
     private final Monomio[] monomials;
 
 
-    private PolinomioConcreto(Monomio[] ma) {
+    public PolinomioConcreto(){
+        monomials= new Monomio[0];
+    }
+     PolinomioConcreto(Monomio[] ma) {
         monomials = ma;
 
     }
