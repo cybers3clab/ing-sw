@@ -3,8 +3,8 @@ package exampleDTO.api;
 import java.util.List;
 
 public class UserDTO {
-    private String name;
-    private List<String> roles;
+    private final String name;
+    private final List<String> roles;
 
     public UserDTO(String name, List<String> roles) {
         this.name = name;

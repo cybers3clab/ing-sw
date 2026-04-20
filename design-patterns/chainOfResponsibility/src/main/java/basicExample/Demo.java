@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
  * Demo class. Everything comes together here.
  */
 public class Demo {
-    private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     private static Server server;
 
     private static void init() {

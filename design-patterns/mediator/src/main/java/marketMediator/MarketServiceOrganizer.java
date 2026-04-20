@@ -3,6 +3,6 @@ package marketMediator;
 public interface MarketServiceOrganizer {
 	//Mediator
 
-	public void entityChanged(MarketEntity entity);
+	void entityChanged(MarketEntity entity);
 
 }

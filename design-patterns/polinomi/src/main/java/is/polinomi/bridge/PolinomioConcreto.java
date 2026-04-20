@@ -53,18 +53,7 @@ public class PolinomioConcreto implements Polinomio {
     @Override
     public Polinomio add(Monomio m) {
         PolinomioConcreto res = new PolinomioConcreto();
-        boolean added = false;
-        for (Monomio mon : this) {
-            if (mon.grado() == m.grado()) {
-                Monomio sum = mon.add(m);
-                if (Math.abs(sum.coeff()) > EPS)
-                    res.addImpl(sum);
-                added = true;
-            } else res.addImpl(mon);
-        }
-        if (!added) res.addImpl(m);
-
-
+        res.addImpl(m);
         return res;
     }
 

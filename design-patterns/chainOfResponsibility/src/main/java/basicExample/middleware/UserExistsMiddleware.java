@@ -6,7 +6,7 @@ import basicExample.server.Server;
  * ConcreteHandler. Checks whether a user with the given credentials exists.
  */
 public class UserExistsMiddleware extends Middleware {
-    private Server server;
+    private final Server server;
 
     public UserExistsMiddleware(Server server) {
         this.server = server;

@@ -2,7 +2,7 @@ package exampleDTO.api;
 
 public class UserIdDTO {
 
-    private String id;
+    private final String id;
 
     public UserIdDTO(String id) {
         this.id = id;

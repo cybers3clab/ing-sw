@@ -9,7 +9,7 @@ import java.util.Map;
  * Server class.
  */
 public class Server {
-    private Map<String, String> users = new HashMap<>();
+    private final Map<String, String> users = new HashMap<>();
     private Middleware middleware;
 
     /**

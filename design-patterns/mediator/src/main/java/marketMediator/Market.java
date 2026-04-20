@@ -6,8 +6,10 @@ public class Market {
 	 * del Mediator e che ottiene da esso riferimenti a code e server
 	 */
 
-	private Queue queue1, queue2;
-	private Cashier cashier1, cashier2;
+	private final Queue queue1;
+    private final Queue queue2;
+	private final Cashier cashier1;
+    private final Cashier cashier2;
 
 	public Market() {
 		MarketServiceOrganizerImpl marketServiceOrganizer = new MarketServiceOrganizerImpl();
