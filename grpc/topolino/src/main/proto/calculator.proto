@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "it.ingsw.proto";
+option java_outer_classname = "CalculatorProto";
+option java_multiple_files = true;
+
+package calculator;
+
+message OperationRequest {
+  int32 opA = 1;
+  int32 opB = 2;
+}
+
+message OperationResponse {
+  int32 res = 1;
+}
+
+service Calculator {
+  rpc Add      (OperationRequest) returns (OperationResponse);
+  rpc Subtract (OperationRequest) returns (OperationResponse);
+  rpc Multiply (OperationRequest) returns (OperationResponse);
+  rpc Divide   (OperationRequest) returns (OperationResponse);
+}
